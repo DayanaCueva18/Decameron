@@ -61,7 +61,14 @@
             está diseñado para optimizar el presupuesto de viaje de sus clientes y su servicio 360° se enfoca
             en la innovación continua y la creación de eventos personalizados.</p>
     </div>
+    <script>
+        function cambiarColorFondo() {
+          const colorHex = '#' + Math.floor(Math.random()*16777215).toString(16);
+          document.body.style.backgroundColor = colorHex;
+        }
 
+        document.addEventListener('mouseover', cambiarColorFondo);
+      </script>
     <div class="container">
         <div class="row">
             <div class="col ">
@@ -157,7 +164,7 @@
                 inolvidable segura y en respecto del ambiente y las comunidades</li>
         </ol>
     </div>
-    <div> <img class="img-fluid" src="imagenes/iconos.png" alt=""></div>
+    <div> <img class="img-fluid" src="imagenes/iconos.png" alt="" width="3550"></div>
 
 
 
